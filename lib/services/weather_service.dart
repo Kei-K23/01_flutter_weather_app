@@ -30,7 +30,7 @@ class WeatherService {
     );
   }
 
-  Future<Map<String, dynamic>> _fetchWeatherData() async {
+  Future<Map<String, dynamic>> fetchWeatherData() async {
     final position = await _getCurrentLocation();
     final url =
         "$_baseUrl?lat=${position.latitude}&lon=${position.longitude}&appid=$_apiKey";
