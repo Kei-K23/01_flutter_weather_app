@@ -1,9 +1,10 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class WeatherService {
-  static const String _apiKey = "2d27920b47362fd86b5635fe09e4ecc2";
+  final String _apiKey = dotenv.env['OPEN_WEATHER_API_KEY']!;
   static const String _baseUrl =
       "https://api.openweathermap.org/data/2.5/weather";
 
