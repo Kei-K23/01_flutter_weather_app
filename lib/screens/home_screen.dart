@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.w300,
-                        fontSize: 18,
+                        fontSize: 16,
                       ),
                     ),
                     const Text(
@@ -124,7 +124,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         "29°C",
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 55,
+                          fontSize: 50,
                           fontWeight: FontWeight.w700,
                         ),
                       ),
@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         "Moderate rain",
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 30,
+                          fontSize: 28,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         getFormattedTime(_dateTime),
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 18,
+                          fontSize: 15,
                           fontWeight: FontWeight.w300,
                         ),
                       ),
